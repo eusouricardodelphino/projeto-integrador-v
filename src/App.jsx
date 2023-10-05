@@ -26,6 +26,7 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Dashboard />} />
+        <Route exact path="/dashboard/temperatures" element={<Dashboard />} />
       </Routes>
     </>
   );

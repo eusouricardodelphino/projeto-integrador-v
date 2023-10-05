@@ -140,3 +140,8 @@ input[type="search"]::-webkit-search-results-decoration {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+.logo {
+    color: rgba(255, 255, 233, 0.5);
+    text-transform: uppercase;
+}
