@@ -33,14 +33,14 @@ function DashboardCard06() {
               <tr>
                 <td className="p-2">
                   <div className="flex items-center">
-                    <div className="text-slate-800 dark:text-slate-100">27.09.2023</div>
+                    <div className="text-slate-800 dark:text-slate-100">30.10.2023</div>
                   </div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center">12:00</div>
+                  <div className="text-center">16:02</div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center text-emerald-500">282 K</div>
+                  <div className="text-center text-emerald-500">27°C</div>
                 </td>
                 <td className="p-2">
                   <div className="text-center">On</div>
@@ -50,14 +50,14 @@ function DashboardCard06() {
               <tr>
                 <td className="p-2">
                   <div className="flex items-center">
-                    <div className="text-slate-800 dark:text-slate-100">27.09.2023</div>
+                    <div className="text-slate-800 dark:text-slate-100">29.10.2023</div>
                   </div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center">11:00</div>
+                  <div className="text-center">16:08</div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center text-emerald-500">284 K</div>
+                  <div className="text-center text-emerald-500">28°C</div>
                 </td>
                 <td className="p-2">
                   <div className="text-center">On</div>
@@ -67,65 +67,14 @@ function DashboardCard06() {
               <tr>
                 <td className="p-2">
                   <div className="flex items-center">
-                    <div className="text-slate-800 dark:text-slate-100">27.09.2023</div>
+                    <div className="text-slate-800 dark:text-slate-100">28.10.2023</div>
                   </div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center">10:00</div>
+                  <div className="text-center">16:05</div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center text-emerald-500">283 K</div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center">Off</div>
-                </td>
-              </tr>
-              {/* Row */}
-              <tr>
-                <td className="p-2">
-                  <div className="flex items-center">
-                    <div className="text-slate-800 dark:text-slate-100">27.09.2023</div>
-                  </div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center">09:00</div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center text-emerald-500">285 K</div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center">Off</div>
-                </td>
-              </tr>
-              {/* Row */}
-              <tr>
-                <td className="p-2">
-                  <div className="flex items-center">
-                    <div className="text-slate-800 dark:text-slate-100">27.09.2023</div>
-                  </div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center">08:00</div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center text-emerald-500">287 K</div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center">Off</div>
-                </td>
-              </tr>
-              {/* Row */}
-              <tr>
-                <td className="p-2">
-                  <div className="flex items-center">
-                    <div className="text-slate-800 dark:text-slate-100">27.09.2023</div>
-                  </div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center">07:00</div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center text-emerald-500">286 K</div>
+                  <div className="text-center text-emerald-500">27°C</div>
                 </td>
                 <td className="p-2">
                   <div className="text-center">On</div>
@@ -135,14 +84,65 @@ function DashboardCard06() {
               <tr>
                 <td className="p-2">
                   <div className="flex items-center">
-                    <div className="text-slate-800 dark:text-slate-100">27.09.2023</div>
+                    <div className="text-slate-800 dark:text-slate-100">27.10.2023</div>
                   </div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center">06:00</div>
+                  <div className="text-center">16:03</div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center text-emerald-500">285 K</div>
+                  <div className="text-center text-emerald-500">29°C</div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center">On</div>
+                </td>
+              </tr>
+              {/* Row */}
+              <tr>
+                <td className="p-2">
+                  <div className="flex items-center">
+                    <div className="text-slate-800 dark:text-slate-100">26.10.2023</div>
+                  </div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center">16:02</div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center text-emerald-500">28°C</div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center">On</div>
+                </td>
+              </tr>
+              {/* Row */}
+              <tr>
+                <td className="p-2">
+                  <div className="flex items-center">
+                    <div className="text-slate-800 dark:text-slate-100">25.10.2023</div>
+                  </div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center">16:04  </div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center text-emerald-500">27°C</div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center">On</div>
+                </td>
+              </tr>
+              {/* Row */}
+              <tr>
+                <td className="p-2">
+                  <div className="flex items-center">
+                    <div className="text-slate-800 dark:text-slate-100">24.10.2023</div>
+                  </div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center">16:01</div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center text-emerald-500">26°C</div>
                 </td>
                 <td className="p-2">
                   <div className="text-center">On</div>

@@ -6,41 +6,47 @@ import Icon from '../../images/icon-01.svg';
 // Import utilities
 import { tailwindConfig, hexToRGB } from '../../utils/Utils';
 
-function DashboardCard01() {
+function DashboardCard01({ dates }) {
+
+  console.log(dates);
 
   const chartData = {
     labels: [
-      '12-01-2020',
-      '01-01-2021',
-      '02-01-2021',
-      '03-01-2021',
-      '04-01-2021',
-      '05-01-2021',
-      '06-01-2021',
-      '07-01-2021',
-      '08-01-2021',
-      '09-01-2021',
-      '10-01-2021',
-      '11-01-2021',
-      '12-01-2021',
-      '01-01-2022',
-      '02-01-2022',
-      '03-01-2022',
-      '04-01-2022',
-      '05-01-2022',
-      '06-01-2022',
-      '07-01-2022',
-      '08-01-2022',
-      '09-01-2022',
-      '10-01-2022',
-      '11-01-2022',
-      '12-01-2022',
-      '01-01-2023',
+      '01-10-2023',
+      '02-10-2023',
+      '03-10-2023',
+      '04-10-2023',
+      '05-10-2023',
+      '06-10-2023',
+      '07-10-2023',
+      '08-10-2023',
+      '09-10-2023',
+      '10-10-2023',
+      '11-10-2023',
+      '12-10-2023',
+      '13-10-2023',
+      '14-10-2023',
+      '15-10-2023',
+      '16-10-2023',
+      '17-10-2023',
+      '18-10-2023',
+      '19-10-2023',
+      '20-10-2023',
+      '21-10-2023',
+      '22-10-2023',
+      '23-10-2023',
+      '24-10-2023',
+      '25-10-2023',
+      '26-10-2023',
+      '27-10-2023',
+      '28-10-2023',
+      '29-10-2023',
+      '30-10-2023',
     ],
     datasets: [
       // Indigo line
       {
-        data: [732, 610, 610, 504, 504, 504, 349, 349, 504, 342, 504, 610, 391, 192, 154, 273, 191, 191, 126, 263, 349, 252, 423, 622, 470, 532],
+        data: [25, 26, 27, 27, 26, 27, 27, 28, 27, 26, 25, 25, 26, 27, 27, 27, 28, 29, 28, 25, 26, 27, 26, 26, 27, 28,29, 27, 28, 27],
         fill: true,
         backgroundColor: `rgba(${hexToRGB(tailwindConfig().theme.colors.blue[500])}, 0.08)`,
         borderColor: tailwindConfig().theme.colors.indigo[500],
@@ -67,7 +73,7 @@ function DashboardCard01() {
         </header>
         <h2 className="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-2">Temperatura</h2>
         <div className="flex items-start">
-          <div className="text-3xl font-bold text-slate-800 dark:text-slate-100 mr-2">283 K</div>
+          <div className="text-3xl font-bold text-slate-800 dark:text-slate-100 mr-2">26,8 °C</div>
         </div>
       </div>
       {/* Chart built with Chart.js 3 */}

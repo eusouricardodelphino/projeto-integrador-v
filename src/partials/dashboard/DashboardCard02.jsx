@@ -11,25 +11,41 @@ function DashboardCard02() {
 
   const chartData = {
     labels: [
-      '12-01-2020', '01-01-2021', '02-01-2021',
-      '03-01-2021', '04-01-2021', '05-01-2021',
-      '06-01-2021', '07-01-2021', '08-01-2021',
-      '09-01-2021', '10-01-2021', '11-01-2021',
-      '12-01-2021', '01-01-2022', '02-01-2022',
-      '03-01-2022', '04-01-2022', '05-01-2022',
-      '06-01-2022', '07-01-2022', '08-01-2022',
-      '09-01-2022', '10-01-2022', '11-01-2022',
-      '12-01-2022', '01-01-2023',
+      '01-10-2023',
+      '02-10-2023',
+      '03-10-2023',
+      '04-10-2023',
+      '05-10-2023',
+      '06-10-2023',
+      '07-10-2023',
+      '08-10-2023',
+      '09-10-2023',
+      '10-10-2023',
+      '11-10-2023',
+      '12-10-2023',
+      '13-10-2023',
+      '14-10-2023',
+      '15-10-2023',
+      '16-10-2023',
+      '17-10-2023',
+      '18-10-2023',
+      '19-10-2023',
+      '20-10-2023',
+      '21-10-2023',
+      '22-10-2023',
+      '23-10-2023',
+      '24-10-2023',
+      '25-10-2023',
+      '26-10-2023',
+      '27-10-2023',
+      '28-10-2023',
+      '29-10-2023',
+      '30-10-2023',
     ],
     datasets: [
       // Indigo line
       {
-        data: [
-          622, 622, 426, 471, 365, 365, 238,
-          324, 288, 206, 324, 324, 500, 409,
-          409, 273, 232, 273, 500, 570, 767,
-          808, 685, 767, 685, 685,
-        ],
+        data: [61, 62, 64, 63, 65, 62, 60, 61, 63, 65, 61, 62, 62, 62, 63, 52, 63, 64, 62, 63, 62, 62, 62, 61, 62, 63, 62, 63, 62, 62],
         fill: true,
         backgroundColor: `rgba(${hexToRGB(tailwindConfig().theme.colors.blue[500])}, 0.08)`,
         borderColor: tailwindConfig().theme.colors.indigo[500],
@@ -43,25 +59,6 @@ function DashboardCard02() {
           pointHoverBorderWidth: 0,          
           clip: 20,
       },
-      // Gray line
-      {
-        data: [
-          732, 610, 610, 504, 504, 504, 349,
-          349, 504, 342, 504, 610, 391, 192,
-          154, 273, 191, 191, 126, 263, 349,
-          252, 423, 622, 470, 532,
-        ],
-        borderColor: `rgba(${hexToRGB(tailwindConfig().theme.colors.slate[500])}, 0.25)`,
-        borderWidth: 2,
-        tension: 0,
-        pointRadius: 0,
-        pointHoverRadius: 3,
-        pointBackgroundColor: `rgba(${hexToRGB(tailwindConfig().theme.colors.slate[500])}, 0.25)`,
-        pointHoverBackgroundColor: `rgba(${hexToRGB(tailwindConfig().theme.colors.slate[500])}, 0.25)`,
-        pointBorderWidth: 0,
-        pointHoverBorderWidth: 0,
-        clip: 20,
-      },
     ],
   };
 
@@ -74,7 +71,7 @@ function DashboardCard02() {
         </header>
         <h2 className="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-2">Umidade</h2>
         <div className="flex items-start">
-          <div className="text-3xl font-bold text-slate-800 dark:text-slate-100 mr-2">123u</div>
+          <div className="text-3xl font-bold text-slate-800 dark:text-slate-100 mr-2">62%</div>
         </div>
       </div>
       {/* Chart built with Chart.js 3 */}

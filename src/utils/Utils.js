@@ -1,4 +1,5 @@
 import resolveConfig from 'tailwindcss/resolveConfig';
+import moment from 'moment';
 
 export const tailwindConfig = () => {
   // Tailwind config
@@ -27,3 +28,14 @@ export const formatValue = (value) => Intl.NumberFormat('en-US', {
   maximumSignificantDigits: 3,
   notation: 'compact',
 }).format(value);
+
+export const arrayOfDates = (array) => {
+  const arrayOfDates = [];
+  array.forEach(item => {
+    let date = moment(item.date).format('HH:mm');
+    arrayOfDates.push(date);
+  });
+
+  return arrayOfDates.sort();
+}
+

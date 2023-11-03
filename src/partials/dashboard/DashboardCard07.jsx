@@ -4,7 +4,7 @@ function DashboardCard07() {
   return (
     <div className="col-span-full xl:col-span-6 bg-white dark:bg-slate-800 shadow-lg rounded-sm border border-slate-200 dark:border-slate-700">
       <header className="px-5 py-4 border-b border-slate-100 dark:border-slate-700">
-        <h2 className="font-semibold text-slate-800 dark:text-slate-100">Últimas umidades</h2>
+        <h2 className="font-semibold text-slate-800 dark:text-slate-100">Últimas Temperaturas</h2>
       </header>
       <div className="p-3">
         {/* Table */}
@@ -20,7 +20,7 @@ function DashboardCard07() {
                   <div className="font-semibold text-center">Hora</div>
                 </th>
                 <th className="p-2">
-                  <div className="font-semibold text-center">Temperatura</div>
+                  <div className="font-semibold text-center">Umidade</div>
                 </th>
                 <th className="p-2">
                   <div className="font-semibold text-center">On/Off</div>
@@ -33,14 +33,14 @@ function DashboardCard07() {
               <tr>
                 <td className="p-2">
                   <div className="flex items-center">
-                    <div className="text-slate-800 dark:text-slate-100">27.09.2023</div>
+                    <div className="text-slate-800 dark:text-slate-100">30.10.2023</div>
                   </div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center">12:00</div>
+                  <div className="text-center">16:02</div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center text-emerald-500">123 u</div>
+                  <div className="text-center text-emerald-500">62%</div>
                 </td>
                 <td className="p-2">
                   <div className="text-center">On</div>
@@ -50,14 +50,14 @@ function DashboardCard07() {
               <tr>
                 <td className="p-2">
                   <div className="flex items-center">
-                    <div className="text-slate-800 dark:text-slate-100">27.09.2023</div>
+                    <div className="text-slate-800 dark:text-slate-100">29.10.2023</div>
                   </div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center">11:00</div>
+                  <div className="text-center">16:08</div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center text-emerald-500">122 u</div>
+                  <div className="text-center text-emerald-500">62%</div>
                 </td>
                 <td className="p-2">
                   <div className="text-center">On</div>
@@ -67,65 +67,14 @@ function DashboardCard07() {
               <tr>
                 <td className="p-2">
                   <div className="flex items-center">
-                    <div className="text-slate-800 dark:text-slate-100">27.09.2023</div>
+                    <div className="text-slate-800 dark:text-slate-100">28.10.2023</div>
                   </div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center">10:00</div>
+                  <div className="text-center">16:05</div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center text-emerald-500">121 u</div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center">Off</div>
-                </td>
-              </tr>
-              {/* Row */}
-              <tr>
-                <td className="p-2">
-                  <div className="flex items-center">
-                    <div className="text-slate-800 dark:text-slate-100">27.09.2023</div>
-                  </div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center">09:00</div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center text-emerald-500">121 u</div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center">Off</div>
-                </td>
-              </tr>
-              {/* Row */}
-              <tr>
-                <td className="p-2">
-                  <div className="flex items-center">
-                    <div className="text-slate-800 dark:text-slate-100">27.09.2023</div>
-                  </div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center">08:00</div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center text-emerald-500">121 u</div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center">Off</div>
-                </td>
-              </tr>
-              {/* Row */}
-              <tr>
-                <td className="p-2">
-                  <div className="flex items-center">
-                    <div className="text-slate-800 dark:text-slate-100">27.09.2023</div>
-                  </div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center">07:00</div>
-                </td>
-                <td className="p-2">
-                  <div className="text-center text-emerald-500">122 u</div>
+                  <div className="text-center text-emerald-500">63%</div>
                 </td>
                 <td className="p-2">
                   <div className="text-center">On</div>
@@ -135,14 +84,65 @@ function DashboardCard07() {
               <tr>
                 <td className="p-2">
                   <div className="flex items-center">
-                    <div className="text-slate-800 dark:text-slate-100">27.09.2023</div>
+                    <div className="text-slate-800 dark:text-slate-100">27.10.2023</div>
                   </div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center">06:00</div>
+                  <div className="text-center">16:03</div>
                 </td>
                 <td className="p-2">
-                  <div className="text-center text-emerald-500">123 u</div>
+                  <div className="text-center text-emerald-500">62%</div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center">On</div>
+                </td>
+              </tr>
+              {/* Row */}
+              <tr>
+                <td className="p-2">
+                  <div className="flex items-center">
+                    <div className="text-slate-800 dark:text-slate-100">26.10.2023</div>
+                  </div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center">16:02</div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center text-emerald-500">63%</div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center">On</div>
+                </td>
+              </tr>
+              {/* Row */}
+              <tr>
+                <td className="p-2">
+                  <div className="flex items-center">
+                    <div className="text-slate-800 dark:text-slate-100">25.10.2023</div>
+                  </div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center">16:04  </div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center text-emerald-500">62%</div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center">On</div>
+                </td>
+              </tr>
+              {/* Row */}
+              <tr>
+                <td className="p-2">
+                  <div className="flex items-center">
+                    <div className="text-slate-800 dark:text-slate-100">24.10.2023</div>
+                  </div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center">16:01</div>
+                </td>
+                <td className="p-2">
+                  <div className="text-center text-emerald-500">61%</div>
                 </td>
                 <td className="p-2">
                   <div className="text-center">On</div>
